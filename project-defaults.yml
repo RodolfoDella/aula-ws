@@ -1,0 +1,16 @@
+swarm:
+  port:
+    offset: 0
+  remote: true
+  datasources:
+    data-sources:
+      AulaDS:
+        driver-name: myPGSQL
+        connection-url: jdbc:postgresql://localhost:5432/aula
+        user-name: android
+        password: 10382
+    jdbc-drivers:
+      myPGSQL:
+        driver-class-name: org.postgresql.Driver
+        xa-datasource-name: org.postgresql.xa.PGXADataSource
+        driver-module-name: org.postgresql
