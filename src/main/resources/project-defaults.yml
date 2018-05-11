@@ -6,7 +6,7 @@ swarm:
     data-sources:
       AulaDS:
         driver-name: myPGSQL
-        connection-url: jdbc:postgresql://localhost:5432/aula
+        connection-url: jdbc:postgresql://appteste.unibave.net:5432/aula
         user-name: android
         password: 10382
     jdbc-drivers:
